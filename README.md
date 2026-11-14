@@ -1,15 +1,40 @@
-# My Art Gallery
+# Art-Gallery-
+
+**Live demo:** https://chandrasen74.github.io/Art-Gallery-/  
+**Repository:** https://github.com/Chandrasen74/Art-Gallery-
+
+![Screenshot of Art-Gallery-](screenshot.png)
 
 ## Overview
-**Art-Gallery-** is a JavaScript, HTML, CSS project with a browser-viewable demo (GitHub Pages).
+`Art-Gallery-` is a HTML/CSS/JavaScript project.
+- **Primary language:** HTML
+- **Languages detected:** CSS, HTML, JavaScript
+- **Stack/tech:** HTML, CSS, JavaScript
+- **Entry point:** `index.html`
+- **Key files:** `index.html`
 
-- Primary language: **HTML**
-- Detected stack: JavaScript, HTML, CSS
-- HTML title: My Art Gallery
+## Language & stack details
+- Languages: CSS, HTML, JavaScript
+- Frameworks/tools/libraries: HTML, CSS, JavaScript
 
-**Live/demo:** https://chandrasen74.github.io/Art-Gallery-/
+## How to install & run
+### Prerequisites
+- A modern web browser
+- (Optional) [Python 3](https://www.python.org/) or any static file server for local serving
 
-## Repository contents
+### Run locally
+```bash
+git clone https://github.com/Chandrasen74/Art-Gallery-.git
+cd Art-Gallery-
+```
+- **Option 1:** open `index.html` directly in your browser
+- **Option 2:** serve locally (recommended for some JS features):
+```bash
+python -m http.server 8000
+# then open http://localhost:8000
+```
+
+## Repository structure (top-level/sample)
 - `README.md`
 - `images/2KDbcPpsfUX0StD3BxAy--1--xm2v7.jpg`
 - `images/Cartoon Banyea.jpg`
@@ -32,15 +57,8 @@
 - `index.html`
 - `jquery.flipster.min.css`
 - `jquery.flipster.min.js`
+- `screenshot.png`
 - `style.css`
 
-## Getting started
-```bash
-git clone https://github.com/Chandrasen74/Art-Gallery-.git
-cd Art-Gallery-
-# open index.html in a browser, or serve locally:
-python -m http.server 8000
-```
-
 ## Status
-README generated/updated as part of a profile-wide documentation pass based on repository contents.
+Documented with screenshot, language/stack details, and setup instructions as part of a profile-wide README update.
